@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF to Word Converter</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f4f7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background: #ffffff;
+      padding: 32px;
+      width: 400px;
+      border-radius: 12px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+      text-align: center;
+    }
+    h1 {
+      font-size: 22px;
+      margin-bottom: 10px;
+      color: #222;
+    }
+    p {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+    input[type="file"] {
+      margin: 18px 0;
+      font-size: 14px;
+    }
+    button {
+      background: #017AFF;
+      color: #fff;
+      border: none;
+      padding: 12px 22px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    button:hover {
+      background: #005fd1;
+    }
+    .note {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #777;
+      line-height: 1.5;
+    }
+    footer {
+      margin-top: 18px;
+      font-size: 11px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>PDF to Word Converter</h1>
+    <p>Upload a PDF file and convert it into an editable Word document (.docx)</p>
+
+    <input type="file" accept=".pdf" />
+    <br />
+    <button onclick="alert('Conversion logic will be added using backend or API')">Convert to Word</button>
+
+    <div class="note">
+      ⚠️ This is a frontend-only demo.<br />
+      To enable real conversion, integrate a backend (Python / Node.js / LibreOffice).
+    </div>
+
+    <footer>
+      Open-source project • Perfect for GitHub Pages
+    </footer>
+  </div>
+</body>
+</html>
